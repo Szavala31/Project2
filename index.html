@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetBuddies</title>
+</head>
+<body>
+    <h1>Budget Buddies</h1>
+    <h2>Where your Pennies find their Pals!</h2>
+    <form action="/submit_form1" method="post">
+        <h3>Create Budget</h3>
+        <label for="bugdet-name">Budget Name</label>
+        <input type="text" id="bugdet-name" name="budget-name" required><br><br>
+        
+        <label for="budget-amount">Amount</label>
+        <input type="budget-amount" id="budget-amount" name="budget-amount" required><br><br>
+        <input type="submit" value="Create Budget">
+    </form>
+
+    <form action="/submit_form2" method="post">
+        <h3>Add New Expense</h3>
+        <label for="expense-name">Expense Name</label>
+        <input type="text" id="expense-name" name="expense-name" required><br><br>
+        
+        <label for="expense-amount">Expense Amount</label>
+        <input type="expense-amount" id="expense-amount" name="expense-amount" required><br><br>
+        <input type="submit" value="Add Expense">
+    </form>
+</body>
+</html>
